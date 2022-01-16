@@ -193,15 +193,17 @@ h1{
         margin-bottom: 25px; */
     }
 }
-@media (min-width: 600px) and (max-width) {
+@media (min-width: 600px) and (max-width:900PX) {
     .popular-collection{
         display: grid;
+        column-width: 100%;
         grid-template-columns: repeat(1, 9fr);
         align-content: center;
         align-items: center;
         /* margin-top: 10px;
         margin-bottom: 25px; */
     }
+    
   @media (min-width:600px) and (max-width: 900px) {
         {
         display: flex;
